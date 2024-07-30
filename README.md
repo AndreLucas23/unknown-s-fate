@@ -20,10 +20,16 @@ No geral, simples, mas pode ser melhorado com novos itens e novas ações nas lu
 ### Objetividade
 O jogo foi pensado para ser jogado de uma vez, com uma pequena e leve história, sem grandes dificuldades, mesmo que ela escale durante a experiência
 
-## Instalação
+## Uso
+
+### Instalação
 
 Comando para instalar o projeto
 
 ```bash
 npm install
 ```
+
+### Inicialização
+
+O jogo deve ser incializado e jogado por meio do arquivo "index.js" na pasta "src"
