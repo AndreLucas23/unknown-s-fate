@@ -66,7 +66,7 @@ async function level1 (mainChar) {
     }
 
     // Continuação da história do jogo
-    process.stdout.write('Após uma escura subida, você chega ao topo, que leva a outro corredor, consideravlmente menor que o último.');
+    process.stdout.write('Após uma escura subida, você chega ao topo, que leva a outro corredor, consideravelmente menor que o último.');
     prompt();
     process.stdout.write('Entretanto, no meio dele, há um homem dormindo em uma cadeira de madeira encostada na parede do mesmo corredor, uma mochila de couro ao seu lado.');
     prompt();
@@ -244,7 +244,7 @@ async function level1 (mainChar) {
         // inventário, ela seja descartada
         if (mainChar.inventory.some(item => item.name === basicSword.name)) {
             process.stdout.write('\x1b[1mEspada Básica\x1b[0m ');
-            process.stdout.write('foi descartada da mochila.');
+            console.log();('foi descartada da mochila.');
             console.log();
         }
 

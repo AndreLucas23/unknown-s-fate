@@ -40,8 +40,7 @@ class MainCharacter extends Character {
             console.log(`${count+1}) ${this.inventory[count] === undefined ? '' : this.inventory[count].name}`);
             count++;
         }
-        console.log('------------');
-
+        process.stdout.write('------------');
     }
 
     // Criação do método "setWeapon()" que define o item especificado como a arma principal do personagem principal

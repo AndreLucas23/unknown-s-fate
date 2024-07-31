@@ -95,6 +95,7 @@ async function level2 (mainChar) {
         prompt();
         console.log();
         mainChar.showInventory();
+        prompt();
         console.log();
     } else {
         process.stdout.write('Um equipamento instável como esse pode trazer problemas, é melhor não levar.');
@@ -115,6 +116,7 @@ async function level2 (mainChar) {
         prompt();
         console.log();
         mainChar.showInventory();
+        prompt();
         console.log();
     } else {
         process.stdout.write('A melhor opção é não se envolver com criações dos inimigos.');
@@ -279,6 +281,7 @@ async function level2 (mainChar) {
         console.log();
         mainChar.showInventory();
         prompt();
+        console.log();
     } else {
         console.log();
         process.stdout.write('Talvez seja um poder a se evitar. O medalhão não é pego.');
