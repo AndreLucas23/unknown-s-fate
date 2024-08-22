@@ -56,7 +56,6 @@ function processAction (action, mainChar, enemy) {
     // Caso a opção seja "4" e não haja uma Poção De Vida pequena no inventário,
     // o jogador será informado da impossibilidade da ação
     } else if (action === 4 && !mainChar.inventory.some(item => item.name === 'Poção De Vida Pequena')) {
-        console.log();
         console.log('Você não possui Poção De Vida Pequena!');
     // Caso a opção seja "5" e haja uma Poção De Força Pequena no inventário,
     // ela será usada
